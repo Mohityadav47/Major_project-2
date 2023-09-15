@@ -1,0 +1,663 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+*::selection{
+        color: #ffff;
+        background-color: #000;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+
+    width: 100%;
+height: 100%;
+    background-color: #fff;
+
+}
+
+    
+    
+   #home{
+
+    width: 100%;
+min-width:100vh;
+margin-top: -40px;
+
+
+
+
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 50px;
+    background-color:#000000;
+        background-image: linear-gradient(160deg,#000000 0%,#8085d0 100%);
+    height:230px;
+}
+#nav img{
+width:500px;
+height: 500px;
+
+}
+#nav #right{
+
+display: flex;
+align-items:center ;
+gap: 90px;
+
+
+
+
+}
+#nav a{
+
+    text-decoration: none;
+font-weight: 800;
+color:#000;
+font-size: 2vw;
+letter-spacing: -1px;
+
+}
+#nav a:hover{
+    color: #fff;
+}
+#nav i{
+    margin-top: 3px;
+    font-size: 20px;
+    display: none;
+}
+#home #homemain{
+
+    width: 100%;
+padding: 15vw 16vw;
+
+
+}
+#homemain h1{
+    font-weight: 800;
+    letter-spacing: -.1vw;
+    font-size: 1.34vw;
+    margin-bottom:-200px; 
+}
+
+
+.headings{
+    display: flex;
+    gap: 40px;
+}
+#homemain .headings h1{
+color: transparent;
+-webkit-text-stroke: 5px #000;
+
+
+font-size: 7vw;
+font-weight: 900;
+line-height: 1;
+letter-spacing: -8px;
+
+}
+#homemain h2{
+    font-size: 80px;
+}
+#homelast{
+    padding: 5vw 15vw;
+    
+}
+#homelast p{
+width: 55%;
+font-size: 1.6vw;
+font-weight: 400;
+letter-spacing: -.08vw;
+margin-top:-150px;
+}
+#homelast p::selection{
+    color: #ffff;
+    background-color: #000;
+}
+#featured{
+
+
+    padding: 10vw 15vw;
+  
+  height: 500px;
+  
+  
+
+}
+.fheading>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+
+}
+.fheading>h1:nth-child(2){
+
+ color: transparent;
+ -webkit-text-stroke: 5px #000;   
+}
+#fimages{
+    display: flex;
+ justify-content: space-between;
+    width: 100%;
+height: 50vh;
+overflow: hidden;
+border: 1px solid black;
+
+    margin-top: 5vw;
+    box-shadow: 1px 3px 3px;
+
+}
+#fimages:hover{
+
+background-color: rgb(245, 230, 245);
+transition: all 1s;
+}
+#fleft{
+    overflow: hidden;
+  
+    height: inherit;
+
+ 
+  
+}
+
+
+
+.fleftelem{
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+    width: 100%;
+height: inherit;
+
+
+
+  
+}
+.fleftelem h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+.fleftelem h4{
+    
+    opacity: .5;
+    font-size: 65px;
+}
+
+.fleftelem h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+#fright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: inherit;
+  
+}
+
+#fright .images{
+    width: 90%;
+    height: 90%;
+    
+}
+#fright img{
+    height: 300px;
+    width: 300px;
+}
+.btndiv{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin: 40PX;
+}
+.btndiv button:hover{
+
+    background-color: #000;
+    color: #fff;
+}
+button a{
+    color: #000;
+    text-decoration: none;
+}
+button a:hover{
+    color: #fff;
+}
+.btndiv button{
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #fff;
+font-size: 1.5vw;
+font-weight: 900;
+letter-spacing: -1px;
+color: black;
+transition: all 1s;
+cursor: pointer;
+
+}
+#dev{
+    margin-top: 580px;
+    width: 100%;
+    padding: 5vw 15vw;
+}
+#dev h1{
+    font-size: 3.1vw;
+    font-size:200;
+    width: 40%;
+    line-height: 1;
+}
+#dev p{
+
+
+    font-size: 1.5vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 45%;
+}
+#slides{
+height: 50%;
+    padding: 3vw 10vw;
+    display: flex;
+justify-content: space-between;
+
+
+
+}
+.slide{
+    height: 150%;
+    width: 30%;
+
+    
+}
+.slide .imge{
+
+    width: 100%;
+height: 270px;
+overflow: hidden;
+border-radius: 5px;
+}
+.slide .imge img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: coer;
+
+}
+.slide .tag{
+    width: fit-content;
+    border-radius: 100px;
+    padding: 10px 22px ;
+    background-color: #f7f7f7;
+    margin: 20px 0;
+}
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+#fonav{
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 100%;
+ 
+    background-color: rgb(19, 19, 41);
+    height: 40%;
+    
+    margin-top:2660px;
+}
+#fonav img{
+width:800px;
+height: 800px;
+
+}
+#fonav #right{
+
+display: flex;
+align-items:center ;
+
+
+
+
+
+}
+#fonav a{
+
+    text-decoration: none;
+font-weight: 500;
+color: #fff;
+font-size: 2vw;
+letter-spacing: -1px;
+margin: 40px;
+
+}
+#fonav h1{
+    color: #fff;
+    font-size: 60px;
+}
+#fonav a:hover{
+    color: #da9595;
+}
+
+
+
+@media  (max-width:500px) {
+    
+    #nav{
+        width: 100%;
+    }
+    
+    #nav img{
+        height: 170px;
+        width: 170px;
+    }
+    #nav a{
+        display: none;
+        
+    }
+    #nav i{
+        font-size: 30px;
+        
+}
+#home #homemain{
+
+ margin-top: 270px;
+
+
+} #homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+   }
+#homemain h1{
+font-size: 20px;
+}
+
+
+.headings{
+   display: block;
+  margin:150px;
+
+  
+}
+#homemain .headings h1{
+height: 130px;
+font-size: 70px;
+}
+#homemain h2{
+font-size: 30px;
+    margin-top: -250px;
+}
+#homelast{
+   
+    margin-top: 150px;
+}
+#homelast p{
+font-size: 20px;
+}
+#homelast p::selection{
+
+}#featured{
+
+
+  
+  
+
+}
+.fheading>h1{
+   font-size: 30px;
+}
+.fheading>h1:nth-child(2){
+
+ 
+}
+#fimages{
+ height: 100%;
+ flex-direction: column;
+
+}
+#fimages:hover{
+
+
+}
+#fleft{
+    
+font-size: 30px;
+ 
+  
+}
+
+
+
+.fleftelem{
+
+
+
+  
+}
+.fleftelem h1{
+   font-size: 25px;
+}
+.fleftelem h3{
+    font-size: 30px;
+    margin-top: 159px;
+    
+}
+
+.fleftelem h4{
+font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#fright{
+ height: 10%;
+  
+}
+
+
+#fright img{
+  height: 130px;
+  width: 130px;
+  margin-bottom: 450px;
+}
+.btndiv{
+
+   
+}
+.btndiv button:hover{
+
+   
+}
+.btndiv button{
+    
+   font-size: 20px;
+}
+
+
+
+#dev{
+  height:10px; 
+  margin-Top:140px ;
+ 
+}
+#dev h1{
+    font-size: 20px;
+}
+#dev p{
+font-size: 13px;
+width: 300px;
+    
+}
+#slides{
+flex-direction: column;
+   margin: 140px;
+   width: 100%;
+
+
+}
+.slide{
+  width: 100%;
+    
+}
+.slide .imge{
+height: 100px;
+width: 100px;
+}
+.slide .imge img{
+
+   
+
+}
+.slide .tag{
+    font-size: 30px;
+}
+.slide h3{
+   font-size: 20px;
+}#fonav{
+    width: 170%;
+    flex-direction: column;
+    margin-bottom: -606px;
+}
+#fonav img{
+height: 160px;
+width:189px;
+
+}
+#fonav #right{
+
+
+
+
+
+}
+#fonav a{
+
+   font-size: 15px;
+
+}
+#fonav h1{
+    font-size: 10px;
+}
+#fonav a:hover{
+    
+}
+}
+@media  only screen and (max-width:1050px) {
+    #nav{
+
+height: 200px;
+        width: 200%;
+    }
+    #nav img{
+        height: 200px;
+        width: 200px;
+    }
+    #nav a{
+        font-size: 30px;
+        
+    }
+    #nav i{
+        font-size: 30px;
+        
+}
+#home #homemain{
+
+ margin-top: 270px;
+
+
+} #homemain .headings h1{
+    color: transparent;
+    -webkit-text-stroke: 2px #000;
+   }
+#homemain h1{
+font-size: 20px;
+}
+
+
+.headings{
+   display: block;
+  margin:150px;
+
+  
+}
+#homemain .headings h1{
+height: 130px;
+font-size: 70px;
+}
+#homemain h2{
+font-size: 30px;
+    margin-top: -250px;
+}
+#homelast{
+   
+    margin-top: 150px;
+}
+#homelast p{
+font-size: 20px;
+}
+#fonav{
+    width: 200%;
+}
+#fonav img{
+
+
+}
+#fonav #right{
+
+ 
+
+
+
+
+
+}
+#fonav a{
+
+
+}
+#fonav h1{
+    
+}
+#fonav a:hover{
+    
+}
+
+}
